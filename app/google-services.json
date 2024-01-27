@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "82976880809",
+    "project_id": "iss-noteport",
+    "storage_bucket": "iss-noteport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82976880809:android:3be34bc6df7754ac2311b8",
+        "android_client_info": {
+          "package_name": "com.example.ejemplo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82976880809-m48c1ofg7ff48mgbdar5k424a9gq2jnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKub9RW9bdB1CQN0pm3-J3tLivL1y75Z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82976880809-m48c1ofg7ff48mgbdar5k424a9gq2jnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

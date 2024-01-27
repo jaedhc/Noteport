@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_menu"
+    tools:context=".RRActivity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+        <View
+            android:id="@+id/view_contenedor"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_new"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/iss_logo"
+            app:layout_constraintTop_toTopOf="@id/view_contenedor"
+            app:layout_constraintBottom_toBottomOf="@id/view_contenedor"
+            app:layout_constraintStart_toStartOf="@id/view_contenedor"
+            android:layout_marginStart="15dp"/>
+
+        <TextView
+            android:id="@+id/txt_servicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/Servicio_mantenimiento"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/view_contenedor"
+            app:layout_constraintStart_toEndOf="@id/img_logo"
+            app:layout_constraintTop_toTopOf="@id/view_contenedor" />
+        
+        <TextView
+            android:id="@+id/txt_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23/11/2022"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/view_contenedor"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_sucursal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sucursal 4. Francisco Del Paso Y Troncoso 510, 15850, Ciudad de México, Magdalena Mixiuhca"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="@+id/txt_fecha"
+            app:layout_constraintTop_toBottomOf="@+id/txt_fecha"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="50dp"/>
+
+        <Spinner
+            android:id="@+id/spn_areas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_sucursal"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"/>
+
+        <Spinner
+            android:id="@+id/spn_servicio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintTop_toBottomOf="@id/spn_areas"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:id="@+id/img_coment"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/spn_servicio"
+            android:src="@drawable/add_img"/>
+
+        <TextView
+            android:id="@+id/txt_agregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agregar_comentario"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_coment" />
+
+        <EditText
+            android:id="@+id/txt_comentario"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/white"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/hint_comentario"
+            android:textColorHint="@color/hint"
+            android:gravity="top"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/txt_agregar" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:numStars="5"
+            android:progressTint="@color/yellow"
+            android:rating="5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_comentario"/>
+
+        <Button
+            android:id="@+id/bnt_enviar"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/enviar_reporte"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ratingBar2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

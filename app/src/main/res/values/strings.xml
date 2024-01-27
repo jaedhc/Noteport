@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Noteport</string>
+    <string name="bienvenida">Bienvenido</string>
+    <string name="Crear_reporte">Crear Reporte</string>
+    <string name="Eliminar_reporte">Eliminar Reporte</string>
+    <string name="Reportes_completados">Reportes completados</string>
+    <string name="Nuevo_reporte">Nuevo reporte</string>
+    <string name="Calendarizacion">Calendarización</string>
+    <string name="Agregar_fecha">Agregar Fecha</string>
+    <string name="Indicar_sucursal">Indicar Sucursal</string>
+    <string name="Servicio_contratado">Servicio contratado</string>
+    <string name="Servicio_limpieza">Servicio de limpieza</string>
+    <string name="Servicio_mantenimiento">Servicio de mantenimiento</string>
+    <string name="Seleccionar_imagen">Seleccionar Imagen</string>
+    <string name="agregar_comentario">Agregar Comentario</string>
+    <string name="enviar_reporte">Enviar Reporte</string>
+    <string name="hint_comentario">Ingrese comentario</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="usuario">Usuario</string>
+    <string name="Contrasenia">Contraseña</string>
+    <string name="Comentario">Comentario</string>
+    <string name="Repetir_contrasenia">Repetir contraseña</string>
+
+
+    // STRING ARRAYS
+    <string-array name="sucursal_array">
+        <item>Sucursal 1. Av. Romulo Garza 410, La Fe, Monterrey, NL</item>
+        <item>Sucursal 2. Articulo 123 1510. Taller, 64480, Monterrey, NL</item>
+        <item>Sucursal 3. Concepcion L. de Soria 48, San Benito, 83190, Hermosillo, Son.</item>
+        <item>Sucursal 4. Francisco Del Paso Y Troncoso 510, 15850, Ciudad de México, Magdalena Mixiuhca</item>
+    </string-array>
+    <string-array name="areas_array">
+        <item>Patio Público</item>
+        <item>Área de ATMs</item>
+        <item>Área de ejecutivos</item>
+        <item>Área de cajas</item>
+        <item>Bóveda</item>
+        <item>Área interna</item>
+    </string-array>
+    <string-array name="servicio_patio">
+        <item>Pisos</item>
+        <item>Cristales</item>
+        <item>Sillas</item>
+        <item>Rejillas</item>
+    </string-array>
+    <string-array name="servicio_atms">
+        <item>Piso</item>
+        <item>Cristales</item>
+    </string-array>
+    <string-array name="servicio_ejecutivos">
+        <item>Sillas</item>
+        <item>Alfombra</item>
+        <item>Escritorio</item>
+        <item>Piso</item>
+        <item>Mamparas</item>
+    </string-array>
+    <string-array name="servicio_cajas">
+        <item>Sillas</item>
+        <item>Cristales</item>
+        <item>Escritorio</item>
+        <item>Piso</item>
+    </string-array>
+    <string-array name="servicio_boveda">
+        <item>Sillas</item>
+        <item>Escritorio</item>
+        <item>Piso</item>
+    </string-array>
+    <string-array name="servicio_interna">
+        <item>Baño</item>
+        <item>Cocina</item>
+    </string-array>
+    <string-array name="mantenimiento_patio">
+        <item>Pinturas</item>
+        <item>Iluminacion</item>
+        <item>Sillas</item>
+    </string-array>
+    <string-array name="mantenimiento_atms">
+        <item>Iluminacion</item>
+        <item>A/C</item>
+        <item>Reg. de voltaje</item>
+    </string-array>
+    <string-array name="mantenimiento_ejecutivos">
+        <item>Contactos</item>
+        <item>Pintura</item>
+        <item>Iluminacion</item>
+        <item>A/C</item>
+        <item>Área eléctrica</item>
+        <item>Sillas</item>
+    </string-array>
+    <string-array name="mantenimiento_cajas">
+        <item>Contactos</item>
+        <item>Pintura</item>
+        <item>Iluminacion</item>
+        <item>A/C</item>
+        <item>Área eléctrica</item>
+        <item>Sillas</item>
+    </string-array>
+    <string-array name="mantenimiento_boveda">
+        <item>Contactos</item>
+        <item>Pintura</item>
+        <item>Iluminacion</item>
+        <item>A/C</item>
+        <item>Sillas</item>
+    </string-array>
+    <string-array name="mantenimiento_interna">
+        <item>Baño</item>
+        <item>Cocina</item>
+    </string-array>
+
+</resources>
